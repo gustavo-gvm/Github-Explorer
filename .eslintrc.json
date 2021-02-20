@@ -28,6 +28,7 @@
     "rules": {
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
+      "react/jsx-one-expression-per-line": "off",
       "react/jsx-filename-extension": [
         1,
         {
@@ -50,7 +51,7 @@
       ],
       "react/react-in-jsx-scope": "off",
       "prettier/prettier": "error",
-      "camelcase": "warn",
+      "camelcase": "off",
       "import-helpers/order-imports": [   // Organizando os Imports
         "warn",
         {
